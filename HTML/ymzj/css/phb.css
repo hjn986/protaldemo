@@ -1,0 +1,145 @@
+#wk{
+    width:700px;
+    /*height:*/
+    margin:auto;
+    /*border: 2px red solid ;*/
+
+}
+/*标题*/
+#phb-title{
+    width: 100%;
+    height:50px;
+    /*background-color: #0074E1;*/
+}
+#gq{margin: 0;
+    font-weight: normal;
+    float:left;
+    margin-right:30px;
+    margin-top:0;
+}
+#gs{
+    float:left;
+    color:#666666;
+    margin-top:10px;
+    font-size:12px;
+}
+#bf{
+    float:right;
+    color:#666666;
+    font-size:12px;
+    margin-top: 15px;
+}
+#bf span{
+    color:#C20C0C;
+}
+#hx{
+    height:4px;
+    width:100%;
+    background-color: #C20C0C;
+}
+/*主体内容*/
+#phb-content{
+    width: 100%;
+    height: 300px;
+    /*background-color: bisque;*/
+}
+/*表格样式*/
+#phb-content table{
+    border:1px solid #d9d9d9;
+    width:100%;
+}
+/*表头样式*/
+.tth{
+    border-bottom: 1px #DEDEDE solid;
+    border-right:1px #DEDEDE solid;
+    height: 38px;
+    background-color: #f7f7f7;
+    text-align:left;
+    font-weight:normal;
+    padding-left:10px;
+    font-size:12px;
+    color:#666666;
+}
+.tt{
+     background-color: #F7F7F7;
+ }
+.tt td{
+    padding:12px 20px;
+}
+.tt2{
+    background-color: white;
+}
+#tt2 td{
+    padding:5px 20px;
+}
+/*第一列*/
+.sz{
+    font-size:15px;
+    color:#999999;
+}
+.eg{
+    color:#358B3E;
+    font-size:10px;
+    margin-left:10px;
+}
+/*第二列*/
+.zjt{
+    display: flex;
+    align-items:center;
+}
+.zjt1{
+    margin-right:15px;
+}
+/*图片大小*/
+.td-img{
+    height:18px;
+    width:18px;
+    margin-right:10px;
+}
+.td-img img{
+    height:100%;
+    width:100%;
+}
+.td-a{
+    display:block;
+    height:18px;
+    width:20px;
+    border:1px #E3E3E3 solid;
+    border-radius:5px;
+}
+.td-a img{
+    height:100%;
+    width:100%;
+}
+/*文本大小*/
+.gm{
+    font-size:12px;
+    margin-right: 5px;
+}
+/*链接伪类处理*/
+.gm a:link{
+    color:black;
+}
+.gm a:visited{
+    color:black;
+}
+.gm a:hover{
+    text-decoration:underline;
+    color:black;
+}
+.gm a:active{
+    color:black;
+}
+/*控制单元格*/
+.pt2 {
+    width: 10%;
+}
+.pt3 {
+    width: 40%;
+}
+.pt4 {
+    width: 10%;
+}
+.pt5 {
+    width: 20%;
+}
