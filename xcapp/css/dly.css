@@ -1,0 +1,42 @@
+/*第一部分*/
+#f{
+    height:30px;
+    /*background-color: #C20C0C;*/
+}
+#f img{
+    height:30px;
+    /*width:100%;*/
+}
+#f span{
+    float:right;
+    color:#099fde;
+}
+/*第二部分*/
+/*携程账号登陆*/
+#s1{
+     margin-top:50px;
+     height:30px;
+     width:100%;
+     /*background-color: #C20C0C;*/
+     display:flex;
+     justify-content: center;
+ }
+#s1 span{
+    /*justify-content: center;*/
+    color: #333333;
+    font-size: 25px;
+    font-weight: normal;
+}
+/*输入账号*/
+#s2{
+    margin-top:50px;
+    height:50px;
+    width:100%;
+    background-color: #C20C0C;
+}
+#s2 span{
+    /*justify-content: center;*/
+    color: #333333;
+    font-size: 25px;
+    font-weight: normal;
+}
