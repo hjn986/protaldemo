@@ -1,0 +1,492 @@
+#wk{
+    height:100%;
+    width: 100%;
+}
+/*banner*/
+#f a img{
+    height:180px;
+    width: 375px;
+    position: relative;
+}
+/*导航栏*/
+#s{
+    height:30px;
+    width:100%;
+    /*background-color: #C20C0C;*/
+    position: absolute;
+    margin-top: -180px;
+}
+#s1{
+    height:28px;
+    width: 312px;
+    background-color:#FFFFFF;
+    border-radius: 14px;
+    margin-left: 16px;
+}
+#s1 a img{
+    height:20px;
+    width: 20px;
+    margin-left: 16px;
+    margin-top: 4px;
+}
+#s1 input{
+    width:260px;
+    border:none;
+    outline:none;
+    position: absolute;
+    top:5px;
+    left:56px;
+}
+#s2{
+    height:30px;
+    width: 40px;
+    position: absolute;
+    top:2px;
+    right:2px;
+}
+#s2-1{
+    height:20px;
+    width: 20px;
+    position: absolute;
+    left:10px;
+}
+#s2-1 a img{
+    height:18px;
+    width: 18px;
+}
+#s2-2{
+    height:10px;
+    width: 40px;
+    position:absolute;
+    bottom: 0;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#s2-2 a span{
+    font-size: 10px;
+    color:#FFFFFF;
+}
+/*金刚区*/
+#t{
+    height:80px;
+    width: 355px;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-top:-48px;
+    margin-left:10px;
+    box-shadow: 6px 6px 5px #F1F1F2;
+}
+#t1,#t2,#t3,#t4,#t5{
+    height:60px;
+    width:60px;
+    background-color: white;
+}
+#t1-1 a img,#t2-1 a img,#t3-1 a img,#t4-1 a img,#t5-1 a img{
+    height:40px;
+    width: 40px;
+    display: flex;
+    margin: auto;
+}
+#t1-2 a span,#t2-2 a span{
+    font-size: 12px;
+    color:#333333;
+    font-weight: bold;
+}
+#t3-2 a span,#t4-2 a span,#t5-2 a span{
+    font-size: 12px;
+    margin-left:10px;
+    color:#333333;
+    font-weight: bold;
+}
+/*卡片区*/
+#d{
+    height: 180px;
+    width: 355px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+#d1,#d2,#d3{
+    height:60px;
+    width:100%;
+}
+/*第一行*/
+/*第一个*/
+#d1-1{
+    height: 60px;
+    width: 108px;
+    background-color:#FB6855;
+    border-radius: 10px 0 0 0;
+    position: relative;
+    float:left;
+}
+#d1-11 a img{
+    height:40px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#d1-12{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    left:10px;
+}
+#d1-12 a span{
+    color:#FFFFFF;
+}
+/*第二个*/
+#d1-2{
+    height:60px;
+    width:80px;
+    background-color:#FA7852;
+    float:left;
+    position: relative;
+}
+#d1-21 a img{
+    height:40px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#d1-22{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    left:5px;
+}
+#d1-22 a span{
+    color:#FFFFFF;
+}
+/*第三个*/
+#d1-3{
+    height:60px;
+    width:167px;
+    background-color:#FFC14B;
+    float: right;
+    border-radius: 0 10px 0 0;
+    position: relative;
+}
+#d1-31 a img{
+    height:40px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#d1-32{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    left:15px;
+}
+#d1-32 a span{
+    color:#A05416;
+}
+#d1-33{
+    height:10px;
+    width:60px;
+    background-color:#F54C45;
+    border-radius:10px 10px 10px 0;
+    position: absolute;
+    right:20px;
+    top:8px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#d1-33 a span{
+    font-size: 6px;
+    /*font-weight:bold;*/
+    color: #FFFFFF;
+
+}
+/*第二行*/
+#d2-1{
+    height: 60px;
+    width: 108px;
+    background-color:#4C96ED;
+    float:left;
+    position:relative;
+}
+#d2-11 a img{
+    height:40px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#d2-12{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    left:10px;
+}
+#d2-12 a span{
+    color:#FFFFFF;
+}
+/*第二个*/
+#d2-2{
+    height: 60px;
+    width: 80px;
+    background-color:#4C96ED;
+    float:left;
+    position: relative;
+}
+#d2-21 a img{
+    height:40px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#d2-22{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    left:5px;
+}
+#d2-22 a span{
+    color:#FFFFFF;
+}
+/*第三个*/
+#d2-3{
+    height: 60px;
+    width: 83px;
+    background-color:#4C96ED;
+    float:left;
+}
+#d2-31{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    left:5px;
+}
+#d2-31 a span{
+    color:#FFFFFF;
+}
+/*第四个*/
+#d2-4{
+    height: 60px;
+    width: 84px;
+    background-color:#4C96ED;
+    float:right;
+}
+#d2-41{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    left:5px;
+}
+#d2-41 a span{
+    color:#FFFFFF;
+}
+/*第三行*/
+/*第一个*/
+#d3-1{
+    height: 60px;
+    width: 108px;
+    background-color:#55CD78;
+    float:left;
+    position:relative;
+    border-radius: 0 0 0 10px;
+}
+#d3-11 a img{
+    height:40px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#d3-12{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    left:10px;
+}
+#d3-12 a span{
+    color:#FFFFFF;
+}
+/*第二个*/
+#d3-2{
+    height: 60px;
+    width: 80px;
+    background-color:#55CD78;
+    float:left;
+    position: relative;
+}
+#d3-21 a img{
+    height:40px;
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#d3-22{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    left:5px;
+}
+#d3-22 a span{
+    color:#FFFFFF;
+}
+/*第三个*/
+#d3-3{
+    height: 60px;
+    width: 83px;
+    background-color:#55CD78;
+    float:left;
+}
+#d3-31{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    left:5px;
+}
+#d3-31 a span{
+    color:#FFFFFF;
+}
+/*第四个*/
+#d3-4{
+    height: 60px;
+    width: 84px;
+    background-color:#55CD78;
+    float:right;
+    border-radius: 0 0 10px 0;
+}
+#d3-41{
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top:20px;
+    left:5px;
+}
+#d3-41 a span{
+    color:#FFFFFF;
+}
+/*金刚区2*/
+#e{
+    height: 100px;
+    width: 350px;
+    margin-top:10px;
+    margin-left: 10px;
+}
+#e1,#e2{
+    height:50px;
+    width:350px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+#e1a,#e1b,#e1c,#e1d,#e1e,#e2a,#e2b,#e2c,#e2d,#e2e{
+    height:50px;
+    width:90px;
+    display:inline;
+    /*background-color: #0084FF;*/
+}
+#e11,#e12,#e13,#e14,#e15{
+    height:50px;
+    width:70px;
+    display:inline;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#e21,#e22,#e23,#e24,#e25{
+    height:50px;
+    width:70px;
+    display: inline;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#e11 a img,#e12 a img,#e13 a img,#e14 a img,#e15 a img,
+#e21 a img,#e22 a img,#e23 a img,#e24 a img,#e25 a img{
+    height:30px;
+    width: 30px;
+}
+
+#e111,#e122,#e133,#e144,#e155,#e211,#e222,#e233,#e244,#e255{
+    height:20px;
+    width: 70px;
+    position: absolute;
+    bottom: -6px;
+    color:#999999;
+    font-size: 6px;
+    display: flex;
+    justify-content: center;
+}
+/*UGC头条*/
+#a{
+    width:94%;
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#a1{
+    width:120px;
+    height:26px;
+}
+#a1 img{
+    height:40px;
+}
+#a2{
+    width:70px;
+    height:26px;
+    background-color:#FF5372;
+    border-radius: 10px;
+    float:right;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#a2-1,#a2-2{
+    float:left;
+    height:20px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#a2-1{
+    width:50px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#a2-2{
+    width:20px;
+}
+#a2-1 a span{
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+#a2-2 a img{
+    height:30px;
+    width:30px;
+}
+/*特卖汇区*/
