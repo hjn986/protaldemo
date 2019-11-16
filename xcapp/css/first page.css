@@ -1,6 +1,8 @@
 #wk{
     height:100%;
     width: 100%;
+    /*position:fixed;*/
+    /*z-index: -1;*/
 }
 /*banner*/
 #f a img{
@@ -490,3 +492,69 @@
     width:30px;
 }
 /*特卖汇区*/
+#b{
+    height:200px;
+    width:360px;
+}
+#b1{
+    height:200px;
+    width:180px;
+    background-color:#F9F9F9;
+    float:left;
+    position:relative;
+}
+#b1-1 a img{
+    height:180px;
+    width:180px;
+}
+#b1-2 a span{
+    color:#000000;
+}
+#b1-3 a span{
+    color:#FF5367;
+}
+#b1-4{
+    height:20px;
+    width: 40px;
+    background-color: #FD3A51;
+    position: absolute;
+    top:0;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#b1-4 a span{
+    color:#FFFFFF;
+}
+#b2,#b3,#b4,#b5{
+    height:100px;
+    width:90px;
+    background-color:#F9F9F9;
+    float:left;
+}
+#b2-1{
+    width: 90px;
+    height:20px;
+}
+#b2-1 a span{
+    color:#FD495E;
+    font-weight: bold;
+}
+#b2-2{
+    width: 90px;
+    height:18px;
+}
+#b2-2 a span,#b4-2 a span,#b5-2 a span{
+    color:#000000;
+}
+#b3 a img,#b4-3 a img,#b5-3 a img{
+    height:54px;
+    width: 54px;
+}
+#b4-1 a span{
+    color:#74B1FF;
+}
+#b5-1 a span{
+    color:#53CA72;
+}

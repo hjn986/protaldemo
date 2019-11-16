@@ -1,0 +1,92 @@
+#wk{
+    position: relative;
+}
+/*第一部分*/
+#f{
+    width:100%;
+    height:44px;
+    background-color: #E6F0F7;
+    position: relative;
+}
+#f1{
+    height:44px;
+    width: 45px;
+    float:left;
+}
+#f1 a img{
+    height:40px;
+    width: 40px;
+}
+#f2{
+    height: 30px;
+    width:280px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    top:5px;
+    left:46px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+#f2-1 a img{
+    height:20px;
+    width: 20px;
+}
+#f2-2{
+    height:30px;
+    width:200px;
+    position: absolute;
+    top:2px;
+    left:30px;
+}
+#f2-2 input{
+    font-size:14px;
+    color:#757575;
+    border:none;
+}
+#f2-3{
+    position: absolute;
+    right:10px;
+}
+#f2-3 a img{
+    height:18px;
+    width: 18px;
+}
+#f3{
+    width:50px;
+    height:44px;
+    position: absolute;
+    right:2px;
+    display: flex;
+    margin: auto;
+    justify-content:center;
+    align-items: center;
+}
+#f3 a span{
+    color:#099FDE;
+}
+/*第二部分*/
+#s{
+    height: 320px;
+    width:100%;
+    /*background-color: #C20C0C;*/
+    position: absolute;
+    top:50px;
+}
+#s form div input{
+    height: 40px;
+    width:90%;
+    border:none;
+    border-bottom: 1px #E3E3E3 solid;
+    outline:none;
+    display: flex;
+    margin: auto;
+    font-size:16px;
+    color:#000000;
+}
+#s1 input{
+    font-size: 12px;
+    color:#666666;
+}
