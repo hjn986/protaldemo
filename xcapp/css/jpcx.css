@@ -299,3 +299,37 @@
 #c8 a span{
     color: #7AA7D5;
 }
+/*第四部分*/
+#d{
+    width: 340px;
+    height: 200px;
+    margin-top: -15px;
+    margin-left:15px;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+}
+#d1{
+    width: 340px;
+    height: 40px;
+    /*background-color: #358B3E;*/
+}
+#d1 span{
+    color:#000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+#dd1{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+#d2,#d3,#d4{
+    float:left;
+
+}
+#d2 img,#d3 img,#d4 img{
+    width: 100px;
+    height: 60px;
+    border-radius:8px;
+}

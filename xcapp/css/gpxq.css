@@ -218,6 +218,16 @@
     margin-left: 10px;
     border-radius: 8px;
     position: relative;
+    display: block;
+}
+#e2 a{
+    width: 360px;
+    height:480px;
+    /*background-color:white;*/
+    margin-top: 6px;
+    margin-left: 10px;
+    border-radius: 8px;
+    /*position: relative;*/
 }
 #e1 span{
     color:#0BCD94;
@@ -442,5 +452,62 @@
 }
 #f2c,#f2e{
     margin-top: 10px;
+}
+/*底部栏*/
+#g{
+    width: 375px;
+    height: 52px;
+    background-color:#876DAA;
+    bottom: 0;
+    position: fixed;
+    z-index: auto;
+    border-radius: 8px 8px 0 0;
+}
+#g1,#g2,#g3{
+    width: 125px;
+    height: 52px;
+    float: left;
+}
+#g1a{
+    width: 75px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#g2a{
+    width: 75px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#g3a{
+    width: 75px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#g1b,#g2b,#g3b{
+    width: 125px;
+    height: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#g1b a span,#g2b a span{
+    color:#FFFFFF;
+}
+#g3b a span{
+    color:#00519F;
+}
+#g1a a img,#g2a a img,#g3a a img{
+    width: 24px;
+    height: 24px;
 }
 

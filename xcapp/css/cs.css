@@ -1,94 +1,44 @@
-#c{
-    width: 340px;
-    height: 350px;
-}
-#c1{
-    width:340px;
-    height:30px;
+/*第二部分*/
+#s{
+    height: 330px;
+    width:100%;
     /*background-color: #C20C0C;*/
 }
-#c1 img{
-    width:20px;
-    height:20px;
-}
-#c1 span{
-    color:#333333;
-    font-size:18px;
-    font-weight: bold;
-}
-#c2,#c3,#c4,#c5,#c6,#c7{
-    width:170px;
-    height:80px;
-    background-color: #FFFFFF;
-    box-shadow: 6px 6px 5px #F1F1F2;
+#s1{
+    width: 375px;
+    height: 40px;
     position: relative;
-    float:left;
 }
-#c2-1,#c3-1,#c4-1,#c5-1,#c6-1,#c7-1{
-    width:140px;
-    height:40px;
+#s1 span{
     position: absolute;
+    left:10px;
     top:10px;
-    left:20px;
-    /*background-color: #0084FF;*/
+    color:#989899;
 }
-#c2-2,#c3-2,#c4-2,#c5-2,#c6-2,#c7-2{
-    width:14px;
-    height:30px;
-    float: left;
-    position: absolute;
-    top:40px;
-    left:20px;
-    /*background-color: red;*/
-}
-#c2-3,#c3-3,#c4-3,#c5-3,#c6-3,#c7-3{
-    width:34px;
-    height:30px;
-    float: left;
-    position: absolute;
-    top:40px;
-    left:36px;
-
-    /*background-color: yellow;*/
-}
-#c2-4,#c3-4,#c4-4,#c5-4,#c6-4,#c7-4{
-    width:40px;
-    height:30px;
-    float: left;
-    position: absolute;
-    top:40px;
-    left:76px;
-}
-#c2-1 a span,#c3-1 a span,#c4-1 a span,
-#c5-1 a span,#c6-1 a span,#c7-1 a span{
-    color:#333333;
-    font-size:16px;
-    font-weight: bold;
-}
-#c2-2 a span,#c3-2 a span,#c4-2 a span,
-#c5-2 a span,#c6-2 a span,#c7-2 a span{
-    color:#FF9A14;
-    font-size: 16px;
-    font-weight: bold;
-}
-#c2-3 a span,#c3-3 a span,#c4-3 a span,
-#c5-3 a span,#c6-3 a span,#c7-3 a span{
-    color:#FF7528;
+#s form div span {
+    height: 40px;
+    width: 320px;
+    border:none;
+    border-bottom: 1px #E3E3E3 solid;
+    outline:none;
+    display: flex;
+    margin: auto;
     font-size:18px;
-    font-weight: bold;
-}
-#c2-4 a span,#c3-4 a span,#c4-4 a span,
-#c5-4 a span,#c6-4 a span,#c7-4 a span{
-    color:#FF7528;
-    font-size:14px;
-}
-#c8{
-    width: 200px;
-    height: 26px;
+    color:#000000;
     /*background-color: #0084FF;*/
-    margin-top:260px;
-    margin-left:120px;
 }
-#c8 a span{
-    color: #7AA7D5;
+#s form div img {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: 1px #E3E3E3 solid;
+    outline:none;
+}
+#s2-1,#s3-1,#s4-1,#s5-1,#s6-1,#s7-1,#s8-1{
+    margin-left: 30px;
+}
+#s2-1,#s2-2,#s3-1,#s3-2,#s4-1,#s4-2,#s5-1,#s5-2,
+#s6-1,#s6-2,#s7-1,#s7-2,#s8-1,#s8-2{
+    float:left;
 }

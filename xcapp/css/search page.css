@@ -69,24 +69,106 @@
 }
 /*第二部分*/
 #s{
-    height: 320px;
+    height: 330px;
     width:100%;
     /*background-color: #C20C0C;*/
-    position: absolute;
-    top:50px;
 }
-#s form div input{
+#s1{
+    width: 375px;
     height: 40px;
-    width:90%;
+    position: relative;
+}
+#s1 span{
+    position: absolute;
+    left:10px;
+    top:10px;
+    color:#989899;
+}
+#s form div span {
+    height: 40px;
+    width: 320px;
     border:none;
     border-bottom: 1px #E3E3E3 solid;
     outline:none;
     display: flex;
     margin: auto;
-    font-size:16px;
+    font-size:18px;
     color:#000000;
+    /*background-color: #0084FF;*/
 }
-#s1 input{
-    font-size: 12px;
-    color:#666666;
+#s form div img {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: 1px #E3E3E3 solid;
+    outline:none;
+}
+#s2-1,#s3-1,#s4-1,#s5-1,#s6-1,#s7-1,#s8-1{
+    margin-left: 30px;
+}
+#s2-1,#s2-2,#s3-1,#s3-2,#s4-1,#s4-2,#s5-1,#s5-2,
+#s6-1,#s6-2,#s7-1,#s7-2,#s8-1,#s8-2{
+    float:left;
+}
+/*第三部分*/
+#t{
+    height: 300px;
+    width:100%;
+    margin-top: 20px;
+    /*background-color: brown;*/
+    position: relative;
+}
+#t1{
+    width: 375px;
+    height: 40px;
+    /*background-color:blue;*/
+    position: relative;
+}
+#t1 span{
+    position: absolute;
+    left:10px;
+    top:10px;
+    color:#989899;
+}
+#t form div span {
+    height: 40px;
+    width: 320px;
+    border: none;
+    border-bottom: 1px #E3E3E3 solid;
+    outline: none;
+    display: flex;
+    margin: auto;
+    font-size: 18px;
+    /*color: #000000;*/
+    /*background-color: #C20C0C;*/
+}
+#t form div img {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: 1px #E3E3E3 solid;
+    outline:none;
+}
+#t2-1,#t2-2,#t3-1,#t3-2{
+    float: left;
+}
+#t2-1,#t3-1{
+    margin-left:30px;
+}
+#t2-1 span,#t3-1 span{
+    margin-left:30px;
+    color:  #000000;
+}
+#t4{
+    height: 30px;
+    width: 120px;
+    /*background-color: #C20C0C;*/
+    position: absolute;
+    top:150px;
+    left: 130px;
+}
+#t4 span{
+    color:#099FDE;
 }
